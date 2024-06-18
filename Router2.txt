@@ -1,0 +1,12 @@
+enable
+configure terminal
+hostname "Router2"
+
+interface gi 0/1
+ip address 192.168.1.2 255.255.255.0
+no shutdown
+
+interface gi 0/0
+ip address 192.168.3.1 255.255.255.0
+no shutdown
+
